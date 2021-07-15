@@ -1,0 +1,43 @@
+@use '../custom' as *;
+@use '../component/mixins' as *;
+
+.kaupunki {
+  padding: 0 0 5rem 0;
+
+  &__logo-box {
+    max-width: 100%;
+    height: 11rem;
+    margin-bottom: 2.5rem;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+      transform: translateY(10px);
+      @include gradient;
+      opacity: 0.9;
+    }
+
+    a {
+      text-decoration: none;
+
+      img {
+        height: 100%;
+      }
+      p {
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  .container {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}
+
+.animate__animated.animate__swing {
+  --animate-duration: 2s;
+}

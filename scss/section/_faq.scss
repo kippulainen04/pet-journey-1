@@ -1,0 +1,31 @@
+@use '../custom' as *;
+@use '../component/mixins' as *;
+
+.faq {
+  .col-md-6 {
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  &__card {
+    &:hover {
+      transform: scale(1.06);
+    }
+    .matka {
+      margin: auto 0;
+    }
+    .card-title,
+    .card-text {
+      font-family: "Poppins", sans-serif;
+    }
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    color: $black;
+  }
+}
+
+.accordion {
+  .accordion-item {
+    font-family: "Poppins", sans-serif;
+  }
+}

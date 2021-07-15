@@ -1,0 +1,23 @@
+@use "custom";
+
+// IMPORT THE COMPONENTS
+
+@use 'component/animations';
+@use 'component/buttons';
+@use 'component/mixins';
+@use 'component/typography';
+
+// IMPORT THE SECTIONS
+
+@use 'section/navbar';
+@use 'section/intro-section';
+@use 'section/kaupunki';
+@use 'section/services';
+@use 'section/customers';
+@use 'section/faq';
+@use 'section/profiles';
+@use 'section/contact';
+@use 'section/footer';
+
+// IMPORT THE EXTRAS
+@use 'extra/extra';

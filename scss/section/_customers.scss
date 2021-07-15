@@ -1,0 +1,69 @@
+@use '../custom' as *;
+@use '../component/mixins' as *;
+
+.customers {
+  position: relative;
+  padding: 0;
+  @include gradient;
+
+  .container {
+    p {
+      font-family: "Poppins", sans-serif;
+    }
+  }
+
+  &__card {
+    background-color: rgba($white, 0.8);
+    padding: 2rem 1.25rem;
+    border-radius: 0.7rem;
+    height: auto;
+    text-align: center;
+
+    i {
+      font-size: 1.5rem;
+      color: rgba($secondary, 0.7);
+    }
+
+    .ratings {
+      i {
+        font-size: 1.2rem;
+        color: rgba($secondary, 0.7);
+        margin: 1rem auto 1.3rem auto;
+      }
+    }
+  }
+
+  &__picture {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    transition: transform 2s;
+    img {
+      border: 0.4rem solid rgba($secondary, 0.7);
+      perspective: 1000px;
+      transform-style: preserve-3d;
+    }
+    img:hover {
+      transform: rotateY(180deg);
+    }
+  }
+
+  &__name {
+    padding-top: 3.3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 500;
+    color: $white;
+
+    h3 {
+      padding-top: 1rem;
+    }
+
+    p {
+      text-transform: capitalize;
+      padding-bottom: 1rem;
+    }
+  }
+}

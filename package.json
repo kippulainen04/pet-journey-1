@@ -1,0 +1,27 @@
+{
+  "name": "petjourney",
+  "version": "1.0.0",
+  "description": "Upgrading project by Boostrap v5 with Sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:asset/css"
+  },
+  "keywords": [
+    "Boostrap\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[ts\u001b[C\u001b[C\u001b[C\u001b[Cbootstrap-v5",
+    "sass",
+    "update-project",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "Nhan Phan",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.2.6",
+    "bootstrap": "^5.0.2",
+    "postcss-cli": "^8.3.1"
+  }
+}
