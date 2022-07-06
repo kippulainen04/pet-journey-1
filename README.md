@@ -17,7 +17,7 @@ According to [Sass Document](https://sass-lang.com/documentation/)
 
   >*Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets well-organized and makes it easy to share design within and across projects.* 
 
-In this project, besides **[HTML](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%20or,(HyperText%20Markup%20Language)), [CSS](https://en.wikipedia.org/wiki/CSS) and [Javascript](https://en.wikipedia.org/wiki/JavaScript)**, **Dart Sass**, is taken into account to enhance the design of this repository. Additionally, **[Autoprefixer](https://github.com/postcss/autoprefixer) is applied to help us taking care of browser supports. 
+In this project, besides **[HTML](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%20or,(HyperText%20Markup%20Language)), [CSS](https://en.wikipedia.org/wiki/CSS) and [Javascript](https://en.wikipedia.org/wiki/JavaScript)**, **Dart Sass**, is taken into account to enhance the design of this repository. Additionally, **[Autoprefixer](https://github.com/postcss/autoprefixer)** is applied to help us taking care of browser support. 
 
 ## 🔑 Key Topic
 
