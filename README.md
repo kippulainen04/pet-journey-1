@@ -13,7 +13,7 @@
 ![](https://i.imgur.com/nrAzS96.png)
 
 ## 🚀 Overview
-According to [Sass Document](https://sass-lang.com/documentation/)
+According to [Sass Document](https://sass-lang.com/documentation/),
 
   >*Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets well-organized and makes it easy to share design within and across projects.* 
 
@@ -58,7 +58,7 @@ After fulfilling the project, I acquire knowledge to:
 
 ## ⚡ Installation & Usage
 
-1. Cloning the project & render on your local browser
+1. Cloning the project & rendering on your local browser
 * The respository can be [cloned](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) as other github repository 
 * Then drag the `index.html` to your local browser
 
@@ -81,6 +81,7 @@ After fulfilling the project, I acquire knowledge to:
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Bootstrap](https://getbootstrap.com/)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Google Fonts](https://fonts.google.com/)
 * [Font Awesome](https://fontawesome.com/)
 * [Mailchimp](https://mailchimp.com/en-gb/)
