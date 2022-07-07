@@ -80,6 +80,7 @@ After fulfilling the project, I acquire knowledge to:
 * [Version Control](https://en.wikipedia.org/wiki/Version_control)
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [SASS](https://sass-lang.com/documentation/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Google Fonts](https://fonts.google.com/)
