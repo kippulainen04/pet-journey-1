@@ -17,7 +17,7 @@ According to [Sass Document](https://sass-lang.com/documentation/)
 
   >*Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets well-organized and makes it easy to share design within and across projects.* 
 
-In this project, besides **[HTML](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%20or,(HyperText%20Markup%20Language)), [CSS](https://en.wikipedia.org/wiki/CSS) and [Javascript](https://en.wikipedia.org/wiki/JavaScript)**, **Dart Sass**, is taken into account to enhance the design of this repository. Additionally, **[Autoprefixer](https://github.com/postcss/autoprefixer)** is applied to help us taking care of browser support. 
+In this project, besides **[HTML](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%20or,(HyperText%20Markup%20Language)), [CSS](https://en.wikipedia.org/wiki/CSS) and [Javascript](https://en.wikipedia.org/wiki/JavaScript)**, **Dart Sass**, is taken into account to enhance the design of the user interface by taking advantage of ready-made Bootstrap components. Additionally, **[Autoprefixer](https://github.com/postcss/autoprefixer)** is applied to help us taking care of browser support. 
 
 ## 🔑 Key Topic
 
@@ -35,11 +35,15 @@ The following content will be covered in this README.md:
 ## 🧑‍💻 Learning Objectives
 
 After fulfilling the project, I acquire knowledge to:
-* Build and style static webpages with semantic **HTML** and **CSS**
+* Build and style static webpages with semantic **HTML** and **CSS** and **Javascript**
 * Implement best practices and standards when structuring HTML files using nested elements, indentation, comments, and line breaks
-* Implement the use of adding **Images & Links** into HTML, using **`<li>, <float>, so on`tags** to present the content of the project
-* Implement CSS styling via class, id and element selectors using external stylesheets and inline styles
-* Implement **Bootstrap** styling, **Google font**, **Font Awesome**, **CSS breakpoints** and **Navigation** with **Responsive web design** theory
+* Implement the use of adding **Images & Links** into HTML and the box model for HTML elements
+* Implement the use of Sassy CSS (.SCSS) extension in files and **`@mixin`, `@include`, `@use` of Sass** to advance the styling of the project
+* Implement Sass styling via class, id and element selectors using external stylesheets and nesting styles
+* Implement Glightbox to display video with Youtube, using Intersection Observer API to trigger animation based on document's viewport
+* Implement a side page with a video background
+* Implement **Bootstrap** styling, **Google font**, **Font Awesome**, **CSS breakpoints**, **Mailchimp** and **Navigation** with **Responsive web design** theory
+* Perform common commands via the command line to interface with the operating system, such as navigating the file tree and creating, opening and comitting the file and directory to github
 * Use **Git workflow** to initialize projects, track changes, and host via remote server
 * Execute live deployment using **GitHub** Pages
 
@@ -47,7 +51,7 @@ After fulfilling the project, I acquire knowledge to:
 
 ## 📋 Requirements
 
-**Build a webpage that improve the pet-journey content and styling
+**Build a webpage that improve the content and styling of [pet-journey](https://github.com/kippulainen04/pet-journey)**
 
 
 <div id='tools'/>
@@ -69,8 +73,6 @@ After fulfilling the project, I acquire knowledge to:
 #### Author:
 * Nio Phan
 
-#### Credit:
-* [(Space Invander)](https://css-tricks.com/the-shapes-of-css/) element credited by [Vlad Zinculescu](https://zinc.world/)
 
 <div id='links'/>
 
@@ -81,9 +83,11 @@ After fulfilling the project, I acquire knowledge to:
 * [Bootstrap](https://getbootstrap.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [Font Awesome](https://fontawesome.com/)
+* [Mailchimp](https://mailchimp.com/en-gb/)
+* [Glightbox](https://github.com/biati-digital/glightbox)
+* [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 * [Pro Git](https://git-scm.com/book/en/v2)
-* [Reference Project](https://technical-documentation-page.freecodecamp.rocks)
-* [Content](https://www.thermofisher.com/fi/en/home/industrial/spectroscopy-elemental-isotope-analysis/spectroscopy-elemental-isotope-analysis-learning-center/trace-elemental-analysis-tea-information/inductively-coupled-plasma-mass-spectrometry-icp-ms-information.html)
+
 
 <div id='contribution'/>
 
